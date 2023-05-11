@@ -15,7 +15,7 @@ const App = () => {
         </ul>
 
         <form id="add-task-form">
-          <input className="text-input" autocomplete="off" type="text" placeholder="Type your description"></input>
+          <input className="text-input" autoComplete="off" type="text" placeholder="Type your description"></input>
           <button className="btn" type="submit">Add</button>
         </form>
 
