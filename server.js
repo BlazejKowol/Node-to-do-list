@@ -7,4 +7,4 @@ const server = app.listen(process.env.PORT || 8000, () => {
 
 app.use((req, res) => {
     res.status(404).send('Not found...');
-})
+});
